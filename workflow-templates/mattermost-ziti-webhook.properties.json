@@ -1,5 +1,0 @@
-{
-    "name": "Mattermost Ziti Webhook",
-    "description": "Post webhook over Ziti to Mattermost.",
-    "iconName": "ziggychef"
-}
