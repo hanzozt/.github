@@ -1,7 +1,0 @@
-
-# These populate the description when a user is exploring available Actions workflow templates via the "New Workflow"
-# button on the "Actions" tab on GitHub.com.
-
-name: Post Events to Mattermost
-description: Send a notification webhook with Ziti's Python SDK
-iconName: ziggychef

@@ -1,0 +1,5 @@
+{
+    "name": "OpenZiti CLA Workflow",
+    "description": "Standard CLA check for OpenZiti repositories.",
+    "iconName": "ziggy-monocle"
+}
