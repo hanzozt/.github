@@ -1,0 +1,5 @@
+{
+    "name": "Post Events to Mattermost",
+    "description": "Send a notification webhook with Ziti's Python SDK",
+    "iconName": "ziggy-chef"
+}
