@@ -32,7 +32,7 @@ jobs:
       # filter out uninteresting events
       IS_INTERESTING: ${{ github.event_name != 'pull_request_review' || (github.event_name == 'pull_request_review' && github.event.review.state == 'approved') }}
     steps:
-    - uses: openziti/ziti-mattermost-action-py@main
+    - uses: hanzozt/ziti-mattermost-action-py@main
       if: ${{ env.HAVE_SECRETS == 'true' && env.IS_INTERESTING == 'true' }}
       with:
         # Identity JSON or Base64 encoded JSON

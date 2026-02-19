@@ -1,5 +1,5 @@
 {
-    "name": "OpenZiti CLA Workflow",
-    "description": "Standard CLA check for OpenZiti repositories.",
+    "name": "Hanzo ZT CLA Workflow",
+    "description": "Standard CLA check for Hanzo ZT repositories.",
     "iconName": "ziggy-monocle"
 }
