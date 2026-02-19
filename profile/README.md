@@ -1,7 +1,7 @@
 
 # Introduction
 
-**Hanzo ZT** [![Hanzo ZT github stars badge](https://img.shields.io/github/stars/hanzozt/ziti?style=flat)](https://github.com/hanzozt/ziti/stargazers) is a free and open source project focused on bringing zero-trust to any application. The project provides all the pieces required to implement or integrate zero-trust into your solutions.
+**Hanzo ZT** [![Hanzo ZT github stars badge](https://img.shields.io/github/stars/hanzozt/zt?style=flat)](https://github.com/hanzozt/zt/stargazers) is a free and open source project focused on bringing zero-trust to any application. The project provides all the pieces required to implement or integrate zero-trust into your solutions.
 
 * An overlay network
 * Tunneling Applications for all operating systems
@@ -17,9 +17,9 @@ type of network is considered an overlay network because it
 provides secure connectivity on top – or “overlaying” – existing
 networking infrastructure.
 
-![image](https://raw.githubusercontent.com/hanzozt/ziti-doc/main/docusaurus/static/img/ziti-overview.svg)
+![image](https://raw.githubusercontent.com/hanzozt/zt-doc/main/docusaurus/static/img/zt-overview.svg)
 
 ## Quick Reference
 
 * [Main Documentation Site](https://hanzozt.dev)
-* [Main Repo](https://github.com/hanzozt/ziti/)
+* [Main Repo](https://github.com/hanzozt/zt/)

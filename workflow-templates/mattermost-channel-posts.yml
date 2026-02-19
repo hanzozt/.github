@@ -32,14 +32,14 @@ jobs:
       # filter out uninteresting events
       IS_INTERESTING: ${{ github.event_name != 'pull_request_review' || (github.event_name == 'pull_request_review' && github.event.review.state == 'approved') }}
     steps:
-    - uses: hanzozt/ziti-mattermost-action-py@main
+    - uses: hanzozt/zt-mattermost-action-py@main
       if: ${{ env.HAVE_SECRETS == 'true' && env.IS_INTERESTING == 'true' }}
       with:
         # Identity JSON or Base64 encoded JSON
-        zitiId: ${{ secrets.ZITI_MATTERMOST_IDENTITY }}
+        ztId: ${{ secrets.ZITI_MATTERMOST_IDENTITY }}
 
-        # http://<ziti service intercept address>/hooks/<incoming webhook secret token>
-        # http://mattermost.ziti.internal:80/hooks/asdflkhjasdflkhjasdflkhjasdflkhj
+        # http://<zt service intercept address>/hooks/<incoming webhook secret token>
+        # http://mattermost.zt.internal:80/hooks/asdflkhjasdflkhjasdflkhjasdflkhj
         webhookUrl: ${{ secrets.ZHOOK_URL_DEV_NOTIFICATIONS }}
 
         # Event JSON or Base64 encoded JSON
